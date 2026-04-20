@@ -1,0 +1,44 @@
+# 1. int
+a = 10                     → Numeric Type
+
+# 2. float
+b = 3.14                   → Numeric Type
+
+# 3. complex
+c = 2 + 3j                 → Numeric Type
+
+# 4. str
+name = "hello"             → Sequence Type
+
+# 5. list
+numbers = [1, 2, 3]        → Sequence Type
+
+# 6. tuple
+values = (1, 2, 3)         → Sequence Type
+
+# 7. range
+r = range(5)               → Sequence Type
+
+# 8. set
+s = {1, 2, 3}              → Set Type
+
+# 9. frozenset
+fs = frozenset({1, 2, 3})  → Set Type
+
+# 10. dict
+d = {"name": "Akshiya", "age": 20} → Mapping Type
+
+# 11. bool
+flag = True                → Boolean Type
+
+# 12. bytes
+b1 = b"hello"              → Binary Type
+
+# 13. bytearray
+b2 = bytearray(5)          → Binary Type
+
+# 14. memoryview
+mv = memoryview(b"hello")  → Binary Type
+
+# 15. NoneType
+x = None                   → None Type
