@@ -1,0 +1,52 @@
+1. PRrogram using if-else
+
+a = "admin"
+b = "1234"
+username = input("Enter username: ")
+password = input("Enter password: ")
+if username == a and password == b:
+    print("Welcome!")
+    print(username)
+else:
+    print("Invalid")
+
+2. Program using elif
+
+a_password = "adminadmin"
+password = input("Enter admin password: ")
+if password == a_password:
+    print("Welcome Admin!")
+    role = input("Enter your role: ")
+    if role == "python developer":
+        print("Welcome Python Developer")
+    elif role == "java developer":
+        print("Welcome Java Developer")
+    elif role == "web developer":
+        print("Welcome Web Developer")
+    elif role == "data analyst":
+        print("Welcome Data Analyst")
+    elif role == "sales person":
+        print("Welcome Sales Person")
+    else:
+        print("Invalid Role")
+else:
+    print("Invalid Password")
+
+3. Program using nested if
+
+a= "admin"
+b = "1234"
+c = "5"
+username = input("Enter username: ")
+if username == a:  
+    password = input("Enter password: ")
+    if password == b:  
+        passkey = input("Enter your passkey (experience): ")
+        if passkey == c:
+            print("Welcome!")
+        else:
+            print("Passkey is wrong")
+    else:
+        print("Password is wrong")
+else:
+    print("Username is wrong")
